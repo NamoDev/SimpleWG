@@ -43,12 +43,9 @@ bool SimpleWG::available() {
 }
 
 /**
- * This returns Wiegand data as payload
+ * This returns raw payload, just in case someone wants to use that
  */
-int *SimpleWG::payload() {
-    /* Add terminator and return buffer */
-    return buffer;
-}
+int *SimpleWG::payload() { return buffer; }
 
 /**
  * Print out data via serial
