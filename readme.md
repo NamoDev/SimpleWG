@@ -2,15 +2,16 @@
 A really simple Wiegand library for Arduino
 
 ### Features
-    * Works with any arbitrary Wiegand bit length
-    * Multi-instance support. Connect independently to as many Wiegand readers as you want! (subject to Arduino memory and pin limits, of course)
-    * (Hopefully) simple enough to understand
+* Works with any arbitrary Wiegand bit length
+* Multi-instance support. Connect independently to as many Wiegand readers as you want! (subject to Arduino memory and pin limits, of course)
+* (Hopefully) simple enough to understand
 
 ### Testing
 This has been tested on an Arduino Nano Every, in conjunction of the following readers:
-    * HID iClass SE RK40
-    * HID iClass SE R40
-    * Generic 26-bit EM card reader
+
+* HID iClass SE RK40
+* HID iClass SE R40
+* Generic 26-bit EM card reader
 
 ```
 Got data on HID iClass SE R40 (R0) (32 bits)
@@ -24,5 +25,5 @@ Got data on 26-bit EM reader (R2) (26 bits)
 ```
 
 ### TODO
-    * Optimize code for style
-    * Triple-check for memory issues (I don't typically code in C++, so...)
+* Optimize code for style
+* Triple-check for memory issues (I don't typically code in C++, so...)
