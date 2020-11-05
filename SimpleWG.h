@@ -11,7 +11,7 @@ class SimpleWG {
     /* Le buffer */
     int *buffer;
 
-    /* Last bit received time and packet gap */
+    /* Last bit received time, packet gap, and bit tracker */
     unsigned long lastBitReceivedAt;
     int wgPacketGap;
     int currentBit;
