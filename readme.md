@@ -27,3 +27,6 @@ Got data on 26-bit EM reader (R2) (26 bits)
 ### TODO
 * Optimize code for style
 * Triple-check for memory issues (I don't typically code in C++, so...)
+
+### License
+MIT license. See `license.md` for all the legalese :P
